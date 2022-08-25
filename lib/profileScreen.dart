@@ -14,9 +14,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
       appBar: AppBar(
         title: Text('homePAge'),
       ),
-      body: Center(
-        child: Text('hello my dear'),
-      ),
+      body: Column(
+        children: [
+          Text('hello my dear'),
+          Text('hello my dear'),
+        ],
+      )
     );
   }
 }
