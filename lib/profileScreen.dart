@@ -15,7 +15,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
         title: Text('homePAge'),
       ),
       body: Center(
-        child: Text('Its me'),
+        child: Text('hello my dear'),
       ),
     );
   }
